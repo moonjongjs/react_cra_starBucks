@@ -257,6 +257,13 @@ min-width  모바일 태블릿 데스크탑 */
   #mobileNav .mobile-container > ul > li > a {font-size:20px;}
   #mobileNav .mobile-container > ul > li > .mobile-sub > ul > li > a {font-size:20px;}
   #mobileNav .mobile-container > ul > li > form div button {font-size:18px;}
+
+  /* 다음 이전 화살 버튼 */
+  #wrap #main  #section2 #slide  .container2 .slide-container .next-btn-box {width:40px;height:40px;}
+  #wrap #main  #section2 #slide  .container2 .slide-container .prev-btn-box {width:40px;height:40px;}
+  #wrap #main  #section2 #slide  .container2 .slide-container .next-btn-box a {background-size:10px auto;}
+  #wrap #main  #section2 #slide  .container2 .slide-container .prev-btn-box a {background-size:10px auto;}
+
 }
 
 @media all and (max-width:400px){

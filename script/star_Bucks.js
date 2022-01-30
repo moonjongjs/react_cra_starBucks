@@ -128,6 +128,7 @@
           let cnt = 0;
           let setId = null;
           let winW = $window.innerWidth()*0.9;    //창너비의 90% 크기
+          const slideId = $('#slide');
           const slide = $('.slide');
           const slideWrap = $('.slide-wrap');
           const pageBtn = $('.page-btn');
@@ -256,12 +257,12 @@
                   e.preventDefault();
 
                   if( $(this).hasClass('close')  ){ //오픈
-                    slide.stop().slideDown(600);
+                    slideId.stop().slideDown(600);
                     $(this).removeClass('close');
                     playFn();
                   }
                   else{ //닫기 close
-                    slide.stop().slideUp(600);
+                    slideId.stop().slideUp(600);
                     $(this).addClass('close');
                     //정지
                     stopFn();

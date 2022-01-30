@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/react_cra_starBucks/static/js/main.fabd18bc.js",
+    "main.js": "/react_cra_starBucks/static/js/main.ef74296f.js",
     "static/js/787.8275019c.chunk.js": "/react_cra_starBucks/static/js/787.8275019c.chunk.js",
     "index.html": "/react_cra_starBucks/index.html",
-    "main.fabd18bc.js.map": "/react_cra_starBucks/static/js/main.fabd18bc.js.map",
+    "main.ef74296f.js.map": "/react_cra_starBucks/static/js/main.ef74296f.js.map",
     "787.8275019c.chunk.js.map": "/react_cra_starBucks/static/js/787.8275019c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fabd18bc.js"
+    "static/js/main.ef74296f.js"
   ]
 }
